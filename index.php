@@ -1,5 +1,5 @@
 <?php
-// include "conn.php";
+
 include "insert_&_edit.php";
 include "delete.php";
 

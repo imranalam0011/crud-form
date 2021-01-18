@@ -7,7 +7,7 @@
     
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         if (isset( $_POST['snoEdit'])){
-        //   Update the record
+        //   Update or Edit the record
             $sno = $_POST["snoEdit"];
             $title = $_POST["titleEdit"];
             $description = $_POST["descriptionEdit"];
@@ -22,6 +22,8 @@
             echo "We could not update the record successfully";
         }
         }
+
+        // Insert the record
         else{
             $title = $_POST["title"];
             $description = $_POST["description"];
